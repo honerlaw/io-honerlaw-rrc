@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react",
+    "outDir": "./bin",
+    "rootDir": "./",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "module": "commonjs"
+  },
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "exclude": [
+    "bin"
+  ]
+}
